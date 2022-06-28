@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3F4897;
+}
+
+h1, h2, .ornamento__linhas, .intro, .divisao, .academico, .estrelas, .especial, .card, .linhas2, .break, .design,.projetos, .personal, .title__line,.break2, .img__projetos,.circle2,.rodape{
+    position: absolute;
+}
+
+ul{
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+
+h1 {
+    left: 306px;
+    top: 136px;
+    z-index: 3;
+}
+
+h2, ul, .intro, article{
+    color: #FFFFFF;
+    font-weight: 400;
+    display: flex;
+}
+
+h2{
+    font-size: 80px;
+    font-weight: 400;
+    font-family: 'Heebo', sans-serif;
+    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.25);
+    left: 592px;
+    top: 360px;
+}
+h2 strong{
+    color: #128DFF;
+}
+
+.ornamento__linhas{
+left: 128.66px;
+top: 108.54px; 
+z-index: -2;  
+}
+
+p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 65px;
+}
+
+.intro{
+    width: 545px;
+    left: 416px;
+    top: 695px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.intro::before{
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 50%;
+    background-color: #8CF8FF;
+    top: 10px;
+    margin-left: -10px;
+}
+p .intro{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.circle1{
+    height: 572.12px;
+    left: -69px;
+    top: 543px;
+    z-index: 1;
+ }
+
+.divisao{
+    left: 50%;
+    top: 1035px;
+    transform: translate(-50%);
+}
+
+.academico{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    left: 128px;
+    top: 1115px;
+}
+
+
+.estrelas{
+    left: 1100px;
+    top: 1199px;
+}
+    
+.especial{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    left: 788px;
+    top: 1115px;
+    
+ }
+
+h4{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size: 44px;
+}
+
+.hobbies{
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+    left: 128px;
+    top: 1693px;
+}
+
+.card{
+    left: 815px;
+    top: 1552px;
+
+}
+
+.hobbies{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.linhas2{
+    left: 52px;
+    top: 1549px;  
+    z-index: 2;  
+}
+
+.break{
+    left: 128px;
+    top: 2669px;
+}
+
+.design{
+    left: 235px;
+    top: 3508px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 65px;
+}
+.design::before{
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 70%;
+    background-color: #8CF8FF;
+    top: 10px;
+    margin-left: -10px;
+}
+
+.personal{
+    left: 50%;
+    top: 2827px;
+    transform: translate(-50%);
+    font-weight: 800;
+    font-size: 200px;
+    color:#8CF8FF;
+    font-family: 'Heebo', sans-serif;
+}
+.projetos{
+    left: 65%;
+    top: 3004px;
+    transform: translate(-50%);
+    font-weight: 800;
+    font-size: 200px;
+    line-height: 294px;
+    color: #8CF8FF;
+    font-family: 'Heebo', sans-serif;
+}
+.title__line{
+    left: 500px;
+    top: 3228px;
+}
+
+.img__projetos{
+    left: 128px;
+    top: 3773px;
+}
+
+.break2{
+    left: 128px;
+    top: 5780px;
+}
+
+.circle2{
+    left: 968px;
+    top: 3330px;
+    z-index: -1;
+}
+
+footer{
+    left: 128px;
+    top: 5905pX;
+    background: #2C2F4D;
+    position: absolute;
+    width: 1110px;
+    height: 356px;
+    box-shadow: 2px 2px 40px 10px rgba(0, 0, 0, 0.24);
+    border-radius: 16px;
+    z-index: 0;
+}
+
+footer h2{
+    position: absolute;
+    left: 90px;
+    top: 70px;
+    font-weight: 500;
+    font-size: 150px;
+    font-family: 'Heebo', sans-serif;
+}
+
+.final{
+  position: absolute;
+  left: 789px;
+}
+
+.rodape{
+    gap: 62px;
+    left: 128px;
+    top: 6333px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    width: 1110px;
+}
+
+.icone_topo{
+    background: url(../assets/icone.svg);
+    background-position: center -10px;
+    height: 38px;
+    width: 38px;
+    position: fixed;
+    right: 32px;
+    bottom: 32px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
